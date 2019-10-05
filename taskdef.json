@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "crag-website",
-            "image": "<IMAGE_NAME>",
+            "image": "crag-service",
             "essential": true,
             "portMappings": [
                 {
