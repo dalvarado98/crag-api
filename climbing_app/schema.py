@@ -22,14 +22,17 @@ class SportRouteImageType(DjangoObjectType):
     class Meta:
         model = models.SportRouteImage
 
+# TODO missing endpoint
 class Boulder(DjangoObjectType):
     class Meta: 
         model = models.Boulder
 
+# TODO missing endpoint
 class BoulderImage(DjangoObjectType): 
     class Meta:
         model = models.BoulderImage
 
+# TODO missing endpoint
 class BoulderRoute(DjangoObjectType):
     class Meta:
         model = models.BoulderRoute
